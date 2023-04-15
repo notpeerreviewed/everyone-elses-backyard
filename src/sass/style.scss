@@ -1,4 +1,22 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Shalimar&display=swap');
+
 body {
     font-family: sans-serif;
-    color: forestgreen;
+}
+
+.header__main {
+    display: grid;
+    justify-content: start;
+    font-family: 'Shalimar', cursive;
+    font-size: x-large;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    border: 1px solid #5D6063;
 }

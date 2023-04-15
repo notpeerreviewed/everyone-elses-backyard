@@ -1,6 +1,6 @@
 ---
-title: "Hello world"
+title: "Everybody else's backyard"
 layout: "base.njk"
 ---
 
-Hello world
+A blog about data science.
