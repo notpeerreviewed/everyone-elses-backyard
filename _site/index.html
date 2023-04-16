@@ -4,27 +4,107 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Everybody else&#39;s backyard</title>
+    <title>Everyone else&#39;s backyard</title>
     <link rel="stylesheet" href="css/style.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Shalimar&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet">
 </head>
 <body>
-
+    <main tabindex="-1" id="main-content">
+        
     <div class='container'>
 
         <header class='header__main'>
-            <h1>Everybody else&#39;s backyard</h1>
+            <h1>Everyone else&#39;s backyard</h1>
 
-            <nav></nav>
-
-
+            
         </header>
+
+            <nav class="nav__main">
+    
+        <a href="/" class="nav__item"> Home </a>
+    
+        <a href="/blog/" class="nav__item"> Blog </a>
+    
+        <a href="/code-bits/" class="nav__item"> Code bits </a>
+    
+        <a href="/data-viz/" class="nav__item"> Data viz </a>
+    
+        <a href="/articles/" class="nav__item"> Articles </a>
+    
+</nav>
 
         <main>
 
+
             <p>A blog about data science.</p>
+<p>Here's a few notes for my own benefit about things that I want to write about once this blog is properly up and running:</p>
+<ul>
+<li>
+<p>Update my RDCOMClient series from my previous blog</p>
+<ul>
+<li>add my realisation about writing character vectors separately to numeric vectors to preserve data type at the target document</li>
+</ul>
+</li>
+<li>
+<p>posts about techniques learned at MoE including data modelling, propensity score matching, mixed models</p>
+</li>
+<li>
+<p>governance processes for data systems</p>
+</li>
+<li>
+<p>SQL stuff including:</p>
+<ul>
+<li>CTEs, recursive queries, date range operations</li>
+</ul>
+</li>
+<li>
+<p>R stuff like glue and glue_sql</p>
+<ul>
+<li>especially parameterising sql queries from within R</li>
+</ul>
+</li>
+<li>
+<p>thoughts about data visualisation including:</p>
+<ul>
+<li>pros and cons of different tools like PowerBI vs Shiny, vs D3</li>
+<li>building capability in an organisation</li>
+<li>value of building engaging visualisations over simple dashboards</li>
+</ul>
+</li>
+<li>
+<p>importance of data literacy for non-data professionals</p>
+</li>
+<li>
+<p>Procrastination - importance of starting</p>
+</li>
+<li>
+<p>Not giving up on yourself</p>
+</li>
+<li>
+<p>Importance of writing for coders</p>
+</li>
+<li>
+<p>The importance of allowing yourself to be wrong and to let others see it.</p>
+</li>
+</ul>
+<p>Things I'll need for this site:</p>
+<ul>
+<li>base njk template</li>
+<li>navigation template
+<ul>
+<li>homepage / about me</li>
+<li>code snippets</li>
+<li>posts</li>
+<li>data visualisations</li>
+</ul>
+</li>
+<li>simple post template that includes code snippet formatting</li>
+<li>template for full page data visualisations</li>
+</ul>
+<pre class="language-r"><code class="language-r">test code highlighting</code></pre>
 
 
         </main>
@@ -33,7 +113,8 @@
 
     </div>
 
-    
-    
+
+    </main>
+
 </body>
 </html>

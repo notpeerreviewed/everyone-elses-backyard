@@ -1,8 +1,28 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Shalimar&display=swap');
 
+* {
+    box-sizing: border-box;
+}
+
+
 body {
     font-family: sans-serif;
+    background-color: #cccdcb;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 1em;
+    align-items: center;
+    text-align: center;
+    border-bottom: 2px solid black;
+  }
+
+.nav__main{
+    padding-bottom: 5px;
+    border-bottom: 2px solid black;
 }
 
 .header__main {

@@ -1,0 +1,25 @@
+{
+    "items": [
+      {
+        "text": "Home",
+        "url": "/"
+      },
+      {
+        "text": "Blog",
+        "url": "/blog/"
+      },
+      {
+        "text": "Code bits",
+        "url": "/code-bits/"
+      },
+      {
+        "text": "Data viz",
+        "url": "/data-viz/"
+      },
+      {
+        "text": "Articles",
+        "url": "/articles/"
+      }
+    ]
+  }
+  
